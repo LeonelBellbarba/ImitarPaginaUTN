@@ -1,0 +1,312 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: auto 0px;
+}
+
+body{
+    margin: 0;
+    background-color:rgb(24, 28, 48);
+}
+
+header{
+    background: url("./Info-Trabajo-Final/assets/imagenes/codigo.jpg") fixed;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+a{
+    text-decoration: none;
+    color: rgb(14, 13, 13);
+}
+
+nav{
+    display: flex;
+    margin: 0;
+    height: 84px;
+    justify-content: space-between;
+    
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    margin-right: 9%;
+}
+
+li{
+    list-style: none;
+    text-align: center;
+    background-color: #E6DDC4;
+    border-radius: 15px;
+    box-shadow: 2px 2px gray;
+    margin: 10%;
+    
+}
+
+
+main{
+    background-color:rgb(24, 28, 48);
+    
+    text-align: center;
+}
+
+main h1{
+    margin:0;
+    color: #678983;
+    font-size: 40px;
+    text-shadow: 2px 2px black;
+    
+}
+
+footer{
+    background-color: #678983;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    color: #181D31;
+}
+
+svg{
+    margin-left: 19%;
+    animation: compu ease 2s;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    
+}
+
+svg #rect2, svg #poligon2{
+    animation: teclado ease 1s;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+}
+
+@keyframes compu{
+  
+     from{
+        transform:translateY(-10px);
+        opacity: 0;
+        
+    }
+
+    to{
+        opacity: 1;
+        transform:translateY(0px);
+    } 
+    
+
+}
+
+@keyframes teclado{
+  
+    0%{  opacity: 0; transform:translateY(-10px)}
+    20%{  opacity: 0; transform:translateY(-8px)}
+    50%{  opacity: 0; transform:translateY(-4px)}
+    100%{  opacity: 1; transform:translateY(0px)}
+
+
+}
+
+
+#titulo{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 15%; 
+    color: white;
+    
+}
+
+#titulo h1{
+    text-shadow: 4px 4px black;   
+}
+
+#modulos{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.historia{
+    border: 5px solid #678983;
+    width: 400px;
+    height: 400px;
+    background-color: #E6DDC4;
+    margin: 12%;
+
+    
+}
+
+.textoHistoria{
+    padding: 2%;
+    margin-top: 5%;
+    width: 100%;
+    color: #181D31;
+}
+
+
+.botones{
+    padding: 3%;
+    width: 45%;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #181D31;
+    font-size: 16px;
+    box-shadow: 2px 2px #678983;
+    margin-top: 23%;
+}
+.computadoraDiv{
+    display: flex;
+}
+
+
+
+.botonesCabezera{
+    box-shadow: 2px 3px #678983;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #E6DDC4;
+    color: #181D31;
+    font-weight: 300;
+    
+}
+
+.logo{
+    height: 80px;
+}
+
+.tituloFooter{
+    font-size: 14px;
+    text-align: center;
+    margin-right: 42%;
+}
+
+.historiaContenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 20px;
+}
+
+.parrafo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 50px;
+}
+
+
+
+.subtituloHistoria{
+    text-align: center;
+    font-size: 40px;
+    color: #678983;
+    text-shadow: 2px 2px black;
+}
+
+.subtextoHistoria{
+    color: #E6DDC4;
+    width: 45%;
+}
+
+
+
+.videoCaja{
+    width: 70%;
+    margin-left: 15%;
+}
+
+.videoSubtitulo{
+    color: #678983;
+    text-shadow: 2px 2px black;
+    text-align: center;
+    font-size: 40px;
+}
+
+.botonesVideoCaja{
+
+}
+
+.botonesVideo{
+    display: flex;
+    background-color: black;
+    padding: 1%;
+}
+
+.play{
+    height: 40px;
+    width: 50px;
+
+}
+
+.pausa{
+    height: 40px;
+    width: 50px;
+}
+
+.duracion{
+    color: white;
+    margin-left: 80%;
+}
+
+
+.juegoTitulo{
+    margin-top: 7%;
+}
+
+.JuegoImagenes{
+    display: flex;
+    margin-left: 20%;
+    margin-bottom: 3%;
+    
+}
+
+
+.JuegoImagenes p{
+    margin-top: 70%;
+}
+
+.JuegoImagenes img{
+    width: 275px;
+    height: 400px;
+}
+
+.cajasVacias{
+    border: 2px solid black;
+    background-color: gray;
+    text-align: center;
+    width: 275px;
+    height: 400px;
+}
+
+.cajasVacias p{
+    color:  rgb(224, 217, 198);
+}
+
+.cajasVacias:hover{
+    background-color: rgb(29, 27, 27);
+}
+
+.cajaLLena{
+    border: 2px solid black;
+    width: 20%;
+    width: 275px;
+    height: 400px;
+    margin-right: 1%;
+}
+
+.botonReiniciar{
+    padding: 1%;
+    width: 20%;
+    border-radius: 10px;
+    box-shadow: 3px 3px rgb(112, 161, 151);
+    margin: 2%;
+    
+}
